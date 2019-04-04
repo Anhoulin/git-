@@ -1,0 +1,9 @@
+将代码提交到github
+第一步：git init初始化仓库
+第二步：git add .  或git add aaa.py  将某些代码保存为缓存
+第三步：git commit -m "massage" 提交但没有同步到远程仓库
+第四步：去自己的github上创建一个自己喜欢的仓库
+第五步：创建好以后你可以选择两种方式进行关联  https 或者 ssh这和git clone相同的
+第六步：将本地仓库与github上创建的仓库进行关联，复制这个ssh或https连接，git remote add origin git@github.com:Anhoulin/Test.git
+第七步：git pull origin master，这一步执行错误，一会看一看git pull是什么意思，提示fatal: couldn't find remote ref master
+第八步：git push -u origin master
